@@ -1,3 +1,4 @@
+import { CustomHookExample1 } from "./components/CustomHookExample1";
 import { UseCallbackExample } from "./components/UseCallbackExample";
 import { UseMemoExample } from "./components/UseMemoExample";
 import { UseRefExample1 } from "./components/UseRefExample1";
@@ -11,7 +12,8 @@ export const App = () => {
       <UseRefExample2 />
       <UseRefExample3 />
       <UseMemoExample /> */}
-      <UseCallbackExample />
+      {/* <UseCallbackExample /> */}
+      <CustomHookExample1 />
     </div>
   );
 };
