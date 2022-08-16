@@ -5,6 +5,7 @@ import { UseMemoExample } from "./components/UseMemoExample";
 import { UseRefExample1 } from "./components/UseRefExample1";
 import { UseRefExample2 } from "./components/UseRefExample2";
 import { UseRefExample3 } from "./components/UseRefExample3";
+import { DataFetch } from "./effect-practice/DataFetch";
 
 export const App = () => {
   return (
@@ -15,7 +16,7 @@ export const App = () => {
       <UseMemoExample /> */}
       {/* <UseCallbackExample /> */}
       {/* <CustomHookExample1 /> */}
-      <CustomHookExample2 />
+      <DataFetch />
     </div>
   );
 };
