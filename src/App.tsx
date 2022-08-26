@@ -7,6 +7,8 @@ import { UseRefExample1 } from "./components/UseRefExample1";
 import { UseRefExample2 } from "./components/UseRefExample2";
 import { UseRefExample3 } from "./components/UseRefExample3";
 import { DataFetch } from "./effect-practice/DataFetch";
+import { PaginationPage } from "./swr/Pagination";
+import { PaginationInfiniteLoadingPage } from "./swr/PaginationInfiniteLoading";
 import { TopPage0 } from "./swr/TopPage0";
 import { TopPage1 } from "./swr/TopPage1";
 
@@ -29,6 +31,10 @@ export const App = () => {
       <UseMemoExample /> */}
       {/* <UseCallbackExample /> */}
       {/* <CustomHookExample1 /> */}
+      <PaginationPage />
+      <hr />
+      <PaginationInfiniteLoadingPage />
+      <hr />
       <div>
         <label>TopPage: </label>
         <select
